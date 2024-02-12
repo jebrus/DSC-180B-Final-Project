@@ -32,7 +32,7 @@ To get started with the Music Recommendation Program, follow these steps:
 ### Setup
 
 1. **Acquire Data Files**:
-   Download all necessary data files. Place these files in the `data` folder within the project directory.
+   Download all necessary data files. Place these files in the `data` folder within the project directory. Files: [Artist data](https://drive.google.com/file/d/1ya91qjUViWBjLOAV_OsZe6FJEsgNUDWb/view?usp=drive_link)
 
 2. **Explore Demos**:
    Navigate to the `demos` folder to find Jupyter Notebooks. These notebooks provide detailed explanations of the datasets and some basic EDA illustrating some of their qualities.
