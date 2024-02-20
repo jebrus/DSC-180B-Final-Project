@@ -32,7 +32,7 @@ To get started with the Music Recommendation Program, follow these steps:
 ### Setup
 
 1. **Acquire Data Files**:
-   Download all necessary data files. Place these files in the `data` folder within the project directory. Files: [Artist data](https://drive.google.com/file/d/1ya91qjUViWBjLOAV_OsZe6FJEsgNUDWb/view?usp=drive_link)
+   Download all necessary data files. Place these files in the `data` folder within the project directory. Files: [User data (.csv, for EDA)](https://drive.google.com/file/d/1VVCVTJokY9kRQ4P-XrcvRx9mWHN3-I5C/view?usp=drive_link), [User data (.npz, sparse matrix for model training)](https://drive.google.com/file/d/1-P1Z0buEtE8O-Evw-OwtLnz2EXtcf6Wm/view?usp=drive_link), [Artist data](https://drive.google.com/file/d/1al5UXfzdQT9U4Rt5n25S_ezSRjSqwRA7/view?usp=drive_link)
 
 2. **Explore Demos**:
    Navigate to the `demos` folder to find Jupyter Notebooks. These notebooks provide detailed explanations of the datasets and some basic EDA illustrating some of their qualities.
@@ -48,3 +48,6 @@ To contribute, please follow these steps:
 3. Commit your changes (`git commit -am 'Add some YourFeature'`).
 4. Push to the branch (`git push origin feature/YourFeature`).
 5. Submit a pull request.
+
+### Acknowledgements
+Special thanks to Last.fm for allowing the use of their data in this project.
