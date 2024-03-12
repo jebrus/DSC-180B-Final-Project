@@ -1,0 +1,47 @@
+/* Remove margin and padding from all elements */
+/* Style for the container of the header */
+.header-container {
+    margin: 0 auto; /* Center the container horizontally */
+    width: 100%; /* Use the full width */
+    text-align: center; /* Center the text within the container */
+}
+
+
+/* Add custom font */
+@font-face {
+    font-family: 'LetterMagic';
+    src: url('Letter Magic 2.ttf') format('truetype');
+}
+/* Custom styles for the header */
+.custom-header {
+    font-family: 'LetterMagic', sans-serif;
+    text-align: center;
+    font-size: 48px; /* or your preferred size */
+    margin: 0;
+    padding: 0;
+}
+
+/* subheader font*/
+@font-face {
+    font-family: 'CreatoDisplayBold';
+    src: url('/assets/CreatoDisplay-Bold.otf') format('opentype');
+}
+.subtitle-header {
+    font-family: 'CreatoDisplayBold', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Style adjustments for body or html could also be added if needed */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Additional adjustments for the DataTable or other elements can be added here */
