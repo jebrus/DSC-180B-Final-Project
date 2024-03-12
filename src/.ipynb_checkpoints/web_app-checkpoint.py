@@ -18,7 +18,7 @@ underrepresented_weight, popularity_weight = 25, 200
 
 def query(artists: list, n: int) -> list:
     if artists:
-        return model.recommend(artists, n, underrepresented_weight, popularity_weight) 
+        model.predict(artists, n, underrepresented_weight, popularity_weight)
     else:
         raise ValueError('No artists provided.')
 
@@ -202,14 +202,12 @@ app.layout = html.Div([
 )
 # new "update_output" for 20 artists
 def update_artist_list(n_clicks, input_value):
-    top_n = 10
-
     if n_clicks > 0 and input_value:
         try:
             # Parse the input value to get a list of artist names
             artist_names = parse_artist_input(input_value)
             # Convert the list to a bullet-pointed list to display on the page
-            return html.Ul(query(artist_names, top_n))
+            return html.Ul([html.Li(artist) for artist in artist_names])
         except Exception as e:
             return f"An error occurred: {e}"
     return "Enter artist names and press submit."
