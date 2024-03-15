@@ -1,0 +1,160 @@
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Space between the title and search bar */
+    align-items: left; /* Center items vertically */
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-title-container {
+    width: 40%;
+}
+
+.custom-header {
+  max-height: 100px; /* Limit the size of the image */
+  width: auto; /* Maintain the aspect ratio */
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 30px;
+  float: left; /* Align to the left */
+}
+
+
+.search-bar-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-end; /* Align items to the right */
+    padding-right: 20px;
+}
+
+.search-bar-text {
+    color: #FC6855; /* Red text above the search bar */
+    margin-bottom: 5px; /* Space between text and search bar */
+    margin-top: 10px;
+    font-family: 'Metropolis Bold', sans-serif;
+}
+
+.artist-input {
+    width: 100%;
+    padding: 8px 8px; /* Top and bottom padding, left and right padding */
+    margin-bottom: 10px; /* Margin at the bottom */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* subheader font*/
+@font-face {
+    font-family: 'Made Tommy';
+    src: url('/web_app_assets/MADE TOMMY Bold_PERSONAL USE.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Metropolis Semibold';
+  src: url('/web_app_assets/Metropolis-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis Bold';
+  src: url('/web_app_assets/Metropolis-Bold.otf') format('opentype');
+}
+
+
+
+/* NAVIGATION MENU */
+.nav-menu {
+    background-color: #fff; /* Change this to match your desired background */
+    padding: 0;
+    margin-top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for depth */
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-menu li {
+    display: inline-block; /* Change to `display: inline-block;` if you prefer not to use float */
+    margin-right: 20px; /* Spacing between menu items */
+}
+
+.nav-menu li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #333; /* Menu item text color */
+    font-weight: bold; /* Optional: if you want bold text */
+    font-family: 'YourFontFamily', sans-serif; /* Replace with your font family */
+    text-transform: uppercase; /* Optional: for uppercase text */
+}
+
+.nav-menu li a:hover {
+    color: #000; /* Menu item text color on hover */
+    background-color: #f2f2f2; /* Menu item background color on hover */
+}
+
+
+/* PAGE CONTENT */
+.page-content {
+    background-color: #65D6BB; /* Replace 'green' with any color you like */
+    margin: !important; /* this doesn't do anything */
+    padding: !important; /* this doesn't do anything */
+    min-height: 100vh;
+}
+
+.white-background {
+    background-color: #ffffff; /* This sets the background color to white */
+    margin-bottom: 10px;
+}
+
+.green-background {
+    background-color: #65D6BB; /* Adjust this color as needed */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header-container, .title-container, .any-other-class {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 10;
+    font-family: 'Made Tommy', sans-serif;
+}
+
+#page-content {
+    background-color: #65D6BB;
+    margin-top: 0 !important;
+}
+
+/* Style adjustments for body */
+body, html {
+    margin: 0;
+    padding: 5px;
+}
+
+h1 {
+    font-family: 'Metropolis Bold', sans-serif;
+    color: #FC6855;
+}
+
+.bottom-right-image {
+    position: fixed;
+    right: 10px;
+    bottom: 25px;
+    width: 250px;
+    height: auto;
+    z-index: 999;
+}
